@@ -5,3 +5,11 @@
 # 4. Строкового типа
 # 5. Пустого типа
 # Вывести их типы.
+
+x1 = int()
+x2 = float()
+x3 = bool()
+x4 = str()
+x5 = None
+
+print(type(x1), type(x2), type(x3), type(x4), type(x5))
