@@ -17,5 +17,10 @@
 x = 77
 y = 9
 z = 130
+number_max = x
+if y > number_max:
+    number_max = y
+if z > number_max:
+    number_max = z
 
-print(f"Наибольшее значение: {max(x, y, z)}")
+print(f"Наибольшее значение: {number_max}")
